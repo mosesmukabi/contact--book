@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact-heading{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    padding: .5rem;
+    width: 40%;
+}
+
+.submit-form{
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+.ContactDetail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 40%;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ContactDetail.disabled {
+    background-color: #f0f0f0;
+    color: #aaa;
+  }
+  
+  .contact-header {
+    display: flex;
+    align-items: center;
+  }
+  
+
+
+  .initials-circle {
+    background-color: rgb(123, 118, 118);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .contact-header h3 {
+    margin: 0;
+  }
+  
+  .Contact-Details-control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  button {
+    background-color: aqua;
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button.Disable-btn {
+    background-color: #56adf9;
+  }
+  
+  button.Disable-btn:hover {
+    background-color: #5a6268;
+  }
+  
